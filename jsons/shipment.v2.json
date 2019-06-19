@@ -1,0 +1,213 @@
+{
+    "Shipment":{
+       "number":"FOX TEST API PU # 06",
+       "createdByName":"Joaquin Ruete",
+       "createdOn":"2019-06-12T08:14:12-04:00",
+       "shipperName":"ILC Chile",
+       "shipperAddress":{
+          "Street":[
+             "AV RICARDO LYON 2304 # 11",
+             "PROVIDENCIA"
+          ],
+          "City":"Santiago de Chile",
+          "State":"Santiago de Chile",
+          "Country":"CHILE",
+          "Description":"Default Shipping Address"
+       },
+       "consigneeName":"Chile TV Cable SA",
+       "consigneeAddress":null,
+       "items":[
+          {
+             "GUID":"2b6be042-5586-46ec-9f7a-41dd667e8f01",
+             "Type":"WI",
+             "Version":"105",
+             "Status":"Loaded",
+             "Package":{
+                "Type":"Box",
+                "Code":"BOX",
+                "Name":"Box"
+             },
+             "PackageName":"Box",
+             "Pieces":"1",
+             "Description":"Decoder",
+             "Length":"27.550000000000004",
+             "Height":"7.0799999999999992",
+             "Width":"23.620000000000001",
+             "Weight":"22.000000000000004",
+             "ContainedPiecesWeightIncluded":"true",
+             "Volume":"2.6699999999999999",
+             "VolumeWeight":"27.793734939759016",
+             "PieceWeight":"22.000000000000004",
+             "PieceVolume":"2.6699999999999999",
+             "PieceQuantity":"0.00",
+             "IsSummarized":"false",
+             "SerialNumber":"35489265118",
+             "SupplierPONumber":"4567812",
+             "Model":"D9800",
+             "PartNumber":"D9800-MS-MPEGOIP V01",
+             "OutShipmentGUID":"e5256e11-0f91-41f3-8e3a-cf63e2a042a2",
+             "WHRItemID":"0",
+             "IncludeInSED":"false",
+             "IsContainer":"false",
+             "OutMasterWayBillNumber":"FOX TEST API PU # 06",
+             "OutHouseWayBillNumber":"FOX TEST API PU # 06",
+             "LastReceptionNetworkID":"0",
+             "ShipmentType":"Ground",
+             "OutDate":"2019-06-12T08:14:12-04:00",
+             "OrderIndex":"1",
+             "IsPallet":"false",
+             "IsOverstock":"false",
+             "NotLoaded":"false",
+             "InTask":"false",
+             "CustomFields":{
+                "CustomField":[
+                   {
+                      "CustomFieldDefinition":{
+                         "Type":"PickList",
+                         "InternalName":"sub_location",
+                         "DisplayName":"SUB LOCATION",
+                         "InternalUse":"false",
+                         "BuildReports":"true",
+                         "Inactive":"false",
+                         "IsCalculated":"false",
+                         "DefaultValue":{
+                            "Value":"AR Good"
+                         },
+                         "PickItems":{
+                            "PickItem":[
+                               "AR Good",
+                               "AR Defective",
+                               "Scrap",
+                               "On Hold",
+                               "Engineering",
+                               "DOA Good",
+                               "DOA Defective"
+                            ]
+                         }
+                      },
+                      "Value":"AR Good"
+                   },
+                   {
+                      "CustomFieldDefinition":{
+                         "Type":"Text",
+                         "InternalName":"estado",
+                         "DisplayName":"ESTADO",
+                         "InternalUse":"false",
+                         "BuildReports":"false",
+                         "Inactive":"false",
+                         "IsCalculated":"false",
+                         "MaximumLength":"100",
+                         "IsMultiline":"false"
+                      },
+                      "Value":"NUEVO"
+                   }
+                ]
+             }
+          },
+          {
+             "GUID":"c915537d-e996-4776-8ce7-50360d8c015b",
+             "Type":"WI",
+             "Version":"105",
+             "Status":"Loaded",
+             "Package":{
+                "Type":"Box",
+                "Code":"BOX",
+                "Name":"Box"
+             },
+             "PackageName":"Box",
+             "Pieces":"1",
+             "Description":"Decoder",
+             "Length":"27.550000000000004",
+             "Height":"7.0799999999999992",
+             "Width":"23.620000000000001",
+             "Weight":"22.000000000000004",
+             "ContainedPiecesWeightIncluded":"true",
+             "Volume":"2.6699999999999999",
+             "VolumeWeight":"27.793734939759016",
+             "PieceWeight":"22.000000000000004",
+             "PieceVolume":"2.6699999999999999",
+             "PieceQuantity":"0.00",
+             "IsSummarized":"false",
+             "SerialNumber":"95468231649",
+             "SupplierPONumber":"6329856",
+             "Model":"D9800",
+             "PartNumber":"D9800-MS-MPEGOIP V01",
+             "OutShipmentGUID":"e5256e11-0f91-41f3-8e3a-cf63e2a042a2",
+             "WHRItemID":"0",
+             "IncludeInSED":"false",
+             "IsContainer":"false",
+             "OutMasterWayBillNumber":"FOX TEST API PU # 06",
+             "OutHouseWayBillNumber":"FOX TEST API PU # 06",
+             "LastReceptionNetworkID":"0",
+             "ShipmentType":"Ground",
+             "OutDate":"2019-06-12T08:14:12-04:00",
+             "OrderIndex":"2",
+             "IsPallet":"false",
+             "IsOverstock":"false",
+             "NotLoaded":"false",
+             "InTask":"false",
+             "CustomFields":{
+                "CustomField":[
+                   {
+                      "CustomFieldDefinition":{
+                         "Type":"PickList",
+                         "InternalName":"sub_location",
+                         "DisplayName":"SUB LOCATION",
+                         "InternalUse":"false",
+                         "BuildReports":"true",
+                         "Inactive":"false",
+                         "IsCalculated":"false",
+                         "DefaultValue":{
+                            "Value":"AR Good"
+                         },
+                         "PickItems":{
+                            "PickItem":[
+                               "AR Good",
+                               "AR Defective",
+                               "Scrap",
+                               "On Hold",
+                               "Engineering",
+                               "DOA Good",
+                               "DOA Defective"
+                            ]
+                         }
+                      },
+                      "Value":"AR Good"
+                   },
+                   {
+                      "CustomFieldDefinition":{
+                         "Type":"Text",
+                         "InternalName":"estado",
+                         "DisplayName":"ESTADO",
+                         "InternalUse":"false",
+                         "BuildReports":"false",
+                         "Inactive":"false",
+                         "IsCalculated":"false",
+                         "MaximumLength":"100",
+                         "IsMultiline":"false"
+                      },
+                      "Value":"NUEVO"
+                   }
+                ]
+             }
+          }
+       ],
+       "events":{
+          "Event":{
+             "Date":"2019-06-12T08:14:12-04:00",
+             "EventDefinition":{
+                "Name":"Order processing",
+                "IncludeInTracking":"true"
+             },
+             "IncludeInTracking":"true",
+             "OwnerType":"SH",
+             "OwnerNumber":"FOX TEST API PU # 06",
+             "OwnerGUID":"e5256e11-0f91-41f3-8e3a-cf63e2a042a2"
+          }
+       },
+       "totalPieces":"2",
+       "totalWeight":"44.000000000000007",
+       "totalVolume":"5.3399999999999999",
+       "status":"Loaded"
+    }
+ }
