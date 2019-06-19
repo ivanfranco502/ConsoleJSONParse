@@ -1,0 +1,385 @@
+{
+    "Shipment":{
+       "number":"FOX TEST API PU # 05",
+       "createdByName":"Joaquin Ruete",
+       "createdOn":"2019-06-12T08:09:55-04:00",
+       "shipperName":"ILC Argentina",
+       "shipperAddress":{
+          "Street":"JOSE INGENIEROS 3135 PISO 2",
+          "City":"BECCAR",
+          "State":"Buenos Aires",
+          "ZipCode":"1643",
+          "Country":"ARGENTINA",
+          "Description":"Default Shipping Address"
+       },
+       "consigneeName":"Asociacion Antena Parabolica Marmato (ANPAM)",
+       "consigneeAddress":null,
+       "items":[
+          {
+             "GUID":"59f1070e-bdde-4d00-8575-b4cfa04094c3",
+             "Type":"WI",
+             "Version":"105",
+             "Status":"Loaded",
+             "Package":{
+                "Type":"Box",
+                "Code":"BOX",
+                "Name":"Box"
+             },
+             "PackageName":"Box",
+             "Pieces":"1",
+             "Description":"Decoder",
+             "Length":"15.75",
+             "Height":"5.1199999999999992",
+             "Width":"11.81",
+             "Weight":"5.9500000000000002",
+             "ContainedPiecesWeightIncluded":"true",
+             "Volume":"0.55000000000000004",
+             "VolumeWeight":"5.7253012048192744",
+             "PieceWeight":"5.9500000000000002",
+             "PieceVolume":"0.55000000000000004",
+             "PieceQuantity":"0.00",
+             "IsSummarized":"false",
+             "SerialNumber":"45879654135",
+             "SupplierPONumber":"5647811",
+             "Model":"D9865-B",
+             "PartNumber":"4028651000001",
+             "OutShipmentGUID":"67db108a-4bd4-45b1-8c59-7f306771c446",
+             "WHRItemID":"0",
+             "IncludeInSED":"false",
+             "IsContainer":"false",
+             "OutMasterWayBillNumber":"FOX TEST API PU # 05",
+             "OutHouseWayBillNumber":"FOX TEST API PU # 05",
+             "LastReceptionNetworkID":"0",
+             "ShipmentType":"Ground",
+             "OutDate":"2019-06-12T08:09:55-04:00",
+             "OrderIndex":"2",
+             "IsPallet":"false",
+             "IsOverstock":"false",
+             "NotLoaded":"false",
+             "InTask":"false",
+             "CustomFields":{
+                "CustomField":[
+                   {
+                      "CustomFieldDefinition":{
+                         "Type":"PickList",
+                         "InternalName":"sub_location",
+                         "DisplayName":"SUB LOCATION",
+                         "InternalUse":"false",
+                         "BuildReports":"true",
+                         "Inactive":"false",
+                         "IsCalculated":"false",
+                         "DefaultValue":{
+                            "Value":"AR Good"
+                         },
+                         "PickItems":{
+                            "PickItem":[
+                               "AR Good",
+                               "AR Defective",
+                               "Scrap",
+                               "On Hold",
+                               "Engineering",
+                               "DOA Good",
+                               "DOA Defective"
+                            ]
+                         }
+                      },
+                      "Value":"AR Good"
+                   },
+                   {
+                      "CustomFieldDefinition":{
+                         "Type":"Text",
+                         "InternalName":"estado",
+                         "DisplayName":"ESTADO",
+                         "InternalUse":"false",
+                         "BuildReports":"false",
+                         "Inactive":"false",
+                         "IsCalculated":"false",
+                         "MaximumLength":"100",
+                         "IsMultiline":"false"
+                      },
+                      "Value":"NUEVO"
+                   }
+                ]
+             }
+          },
+          {
+             "GUID":"1af005c5-d061-4897-8258-9d484ce32cab",
+             "Type":"WI",
+             "Version":"105",
+             "Status":"Loaded",
+             "Package":{
+                "Type":"Box",
+                "Code":"BOX",
+                "Name":"Box"
+             },
+             "PackageName":"Box",
+             "Pieces":"1",
+             "Description":"Decoder",
+             "Length":"15.75",
+             "Height":"5.1199999999999992",
+             "Width":"11.81",
+             "Weight":"5.9500000000000002",
+             "ContainedPiecesWeightIncluded":"true",
+             "Volume":"0.55000000000000004",
+             "VolumeWeight":"5.7253012048192744",
+             "PieceWeight":"5.9500000000000002",
+             "PieceVolume":"0.55000000000000004",
+             "PieceQuantity":"0.00",
+             "IsSummarized":"false",
+             "SerialNumber":"85497623222",
+             "SupplierPONumber":"5978465",
+             "Model":"D9865-B",
+             "PartNumber":"4028651000001",
+             "OutShipmentGUID":"67db108a-4bd4-45b1-8c59-7f306771c446",
+             "WHRItemID":"0",
+             "IncludeInSED":"false",
+             "IsContainer":"false",
+             "OutMasterWayBillNumber":"FOX TEST API PU # 05",
+             "OutHouseWayBillNumber":"FOX TEST API PU # 05",
+             "LastReceptionNetworkID":"0",
+             "ShipmentType":"Ground",
+             "OutDate":"2019-06-12T08:09:55-04:00",
+             "OrderIndex":"4",
+             "IsPallet":"false",
+             "IsOverstock":"false",
+             "NotLoaded":"false",
+             "InTask":"false",
+             "CustomFields":{
+                "CustomField":[
+                   {
+                      "CustomFieldDefinition":{
+                         "Type":"PickList",
+                         "InternalName":"sub_location",
+                         "DisplayName":"SUB LOCATION",
+                         "InternalUse":"false",
+                         "BuildReports":"true",
+                         "Inactive":"false",
+                         "IsCalculated":"false",
+                         "DefaultValue":{
+                            "Value":"AR Good"
+                         },
+                         "PickItems":{
+                            "PickItem":[
+                               "AR Good",
+                               "AR Defective",
+                               "Scrap",
+                               "On Hold",
+                               "Engineering",
+                               "DOA Good",
+                               "DOA Defective"
+                            ]
+                         }
+                      },
+                      "Value":"AR Good"
+                   },
+                   {
+                      "CustomFieldDefinition":{
+                         "Type":"Text",
+                         "InternalName":"estado",
+                         "DisplayName":"ESTADO",
+                         "InternalUse":"false",
+                         "BuildReports":"false",
+                         "Inactive":"false",
+                         "IsCalculated":"false",
+                         "MaximumLength":"100",
+                         "IsMultiline":"false"
+                      },
+                      "Value":"NUEVO"
+                   }
+                ]
+             }
+          },
+          {
+             "GUID":"b80020c5-a8a6-4a10-ab79-7125bb00c19b",
+             "Type":"WI",
+             "Version":"105",
+             "Status":"Loaded",
+             "Package":{
+                "Type":"Box",
+                "Code":"BOX",
+                "Name":"Box"
+             },
+             "PackageName":"Box",
+             "Pieces":"1",
+             "Description":"Decoder",
+             "Length":"15.75",
+             "Height":"5.1199999999999992",
+             "Width":"11.81",
+             "Weight":"5.9500000000000002",
+             "ContainedPiecesWeightIncluded":"true",
+             "Volume":"0.55000000000000004",
+             "VolumeWeight":"5.7253012048192744",
+             "PieceWeight":"5.9500000000000002",
+             "PieceVolume":"0.55000000000000004",
+             "PieceQuantity":"0.00",
+             "IsSummarized":"false",
+             "SerialNumber":"25647894561",
+             "SupplierPONumber":"3574896",
+             "Model":"D9865-B",
+             "PartNumber":"4028651000001",
+             "OutShipmentGUID":"67db108a-4bd4-45b1-8c59-7f306771c446",
+             "WHRItemID":"0",
+             "IncludeInSED":"false",
+             "IsContainer":"false",
+             "OutMasterWayBillNumber":"FOX TEST API PU # 05",
+             "OutHouseWayBillNumber":"FOX TEST API PU # 05",
+             "LastReceptionNetworkID":"0",
+             "ShipmentType":"Ground",
+             "OutDate":"2019-06-12T08:09:55-04:00",
+             "OrderIndex":"1",
+             "IsPallet":"false",
+             "IsOverstock":"false",
+             "NotLoaded":"false",
+             "InTask":"false",
+             "CustomFields":{
+                "CustomField":[
+                   {
+                      "CustomFieldDefinition":{
+                         "Type":"PickList",
+                         "InternalName":"sub_location",
+                         "DisplayName":"SUB LOCATION",
+                         "InternalUse":"false",
+                         "BuildReports":"true",
+                         "Inactive":"false",
+                         "IsCalculated":"false",
+                         "DefaultValue":{
+                            "Value":"AR Good"
+                         },
+                         "PickItems":{
+                            "PickItem":[
+                               "AR Good",
+                               "AR Defective",
+                               "Scrap",
+                               "On Hold",
+                               "Engineering",
+                               "DOA Good",
+                               "DOA Defective"
+                            ]
+                         }
+                      },
+                      "Value":"AR Good"
+                   },
+                   {
+                      "CustomFieldDefinition":{
+                         "Type":"Text",
+                         "InternalName":"estado",
+                         "DisplayName":"ESTADO",
+                         "InternalUse":"false",
+                         "BuildReports":"false",
+                         "Inactive":"false",
+                         "IsCalculated":"false",
+                         "MaximumLength":"100",
+                         "IsMultiline":"false"
+                      },
+                      "Value":"NUEVO"
+                   }
+                ]
+             }
+          },
+          {
+             "GUID":"cf92dace-3886-4db6-b8df-3560b8ff0277",
+             "Type":"WI",
+             "Version":"105",
+             "Status":"Loaded",
+             "Package":{
+                "Type":"Box",
+                "Code":"BOX",
+                "Name":"Box"
+             },
+             "PackageName":"Box",
+             "Pieces":"1",
+             "Description":"Decoder",
+             "Length":"15.75",
+             "Height":"5.1199999999999992",
+             "Width":"11.81",
+             "Weight":"5.9500000000000002",
+             "ContainedPiecesWeightIncluded":"true",
+             "Volume":"0.55000000000000004",
+             "VolumeWeight":"5.7253012048192744",
+             "PieceWeight":"5.9500000000000002",
+             "PieceVolume":"0.55000000000000004",
+             "PieceQuantity":"0.00",
+             "IsSummarized":"false",
+             "SerialNumber":"84561975689",
+             "SupplierPONumber":"7846986",
+             "Model":"D9865-B",
+             "PartNumber":"4028651000001",
+             "OutShipmentGUID":"67db108a-4bd4-45b1-8c59-7f306771c446",
+             "WHRItemID":"0",
+             "IncludeInSED":"false",
+             "IsContainer":"false",
+             "OutMasterWayBillNumber":"FOX TEST API PU # 05",
+             "OutHouseWayBillNumber":"FOX TEST API PU # 05",
+             "LastReceptionNetworkID":"0",
+             "ShipmentType":"Ground",
+             "OutDate":"2019-06-12T08:09:55-04:00",
+             "OrderIndex":"3",
+             "IsPallet":"false",
+             "IsOverstock":"false",
+             "NotLoaded":"false",
+             "InTask":"false",
+             "CustomFields":{
+                "CustomField":[
+                   {
+                      "CustomFieldDefinition":{
+                         "Type":"PickList",
+                         "InternalName":"sub_location",
+                         "DisplayName":"SUB LOCATION",
+                         "InternalUse":"false",
+                         "BuildReports":"true",
+                         "Inactive":"false",
+                         "IsCalculated":"false",
+                         "DefaultValue":{
+                            "Value":"AR Good"
+                         },
+                         "PickItems":{
+                            "PickItem":[
+                               "AR Good",
+                               "AR Defective",
+                               "Scrap",
+                               "On Hold",
+                               "Engineering",
+                               "DOA Good",
+                               "DOA Defective"
+                            ]
+                         }
+                      },
+                      "Value":"AR Good"
+                   },
+                   {
+                      "CustomFieldDefinition":{
+                         "Type":"Text",
+                         "InternalName":"estado",
+                         "DisplayName":"ESTADO",
+                         "InternalUse":"false",
+                         "BuildReports":"false",
+                         "Inactive":"false",
+                         "IsCalculated":"false",
+                         "MaximumLength":"100",
+                         "IsMultiline":"false"
+                      },
+                      "Value":"NUEVO"
+                   }
+                ]
+             }
+          }
+       ],
+       "events":{
+          "Event":{
+             "Date":"2019-06-12T08:09:55-04:00",
+             "EventDefinition":{
+                "Name":"Order processing",
+                "IncludeInTracking":"true"
+             },
+             "IncludeInTracking":"true",
+             "OwnerType":"SH",
+             "OwnerNumber":"FOX TEST API PU # 05",
+             "OwnerGUID":"67db108a-4bd4-45b1-8c59-7f306771c446"
+          }
+       },
+       "totalPieces":"4",
+       "totalWeight":"23.800000000000001",
+       "totalVolume":"2.2000000000000002",
+       "status":"Loaded"
+    }
+ }

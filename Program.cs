@@ -17,7 +17,7 @@ namespace ConsoleJSONParse
             string jsonData = ReadFile("./jsons/shipment.json");
             var transactionInfo = JsonConvert.DeserializeObject<TransactionInfoResponse>(jsonData);
 
-            Console.WriteLine($"transactionInfo {transactionInfo}");
+            Console.WriteLine($"transactionInfo {transactionInfo} - {transactionInfo.Shipment.items.Count}");
 
         }
 
