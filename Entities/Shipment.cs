@@ -20,7 +20,7 @@ namespace ConsoleJSONParse
 
         public List<Item> items { get; set; }
 
-        public Events events { get; set; }
+        public List<Event> events { get; set; }
 
         public string totalPieces { get; set; }
 
