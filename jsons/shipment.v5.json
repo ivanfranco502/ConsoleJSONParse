@@ -1,0 +1,166 @@
+{
+    "Shipment": {
+      "number": "FOX TEST API # 19",
+      "createdByName": "Joaquin Ruete",
+      "createdOn": "2019-06-25T16:50:32-04:00",
+      "shipperName": "ILC Chile",
+      "shipperAddress": {
+        "Street": "AV RICARDO LYON 2304 # 11",
+        "City": "Santiago de Chile",
+        "State": "Santiago de Chile",
+        "Country": "CHILE",
+        "Description": "Default Shipping Address"
+      },
+      "consigneeName": "Beiersdorf, S.A.",
+      "consigneeAddress": {
+        "Street": "Lo Espejo 501",
+        "City": "Santiago",
+        "State": "Santiago",
+        "Country": "CHILE",
+        "ContactName": "Aurelio Sanhueza ",
+        "ContactPhone": "56 2 23688800"
+      },
+      "items": [
+        {
+          "GUID": "e425fb83-3d4f-4200-a785-7bcd1dc635ca",
+          "Type": "WI",
+          "Version": "105",
+          "Status": "Delivered",
+          "Package": {
+            "Type": "Box",
+            "Code": "BOX",
+            "Name": "Box"
+          },
+          "PackageName": "Box",
+          "Pieces": "1",
+          "Description": "Decoder",
+          "Length": "15.75",
+          "Height": "5.1199999999999992",
+          "Width": "11.81",
+          "Weight": "5.00",
+          "ContainedPiecesWeightIncluded": "true",
+          "Volume": "0.55000000000000004",
+          "VolumeWeight": "5.7253012048192744",
+          "PieceWeight": "5.00",
+          "PieceVolume": "0.55000000000000004",
+          "PieceQuantity": "0.00",
+          "IsSummarized": "false",
+          "SerialNumber": "26448779558",
+          "SupplierPONumber": "2255454",
+          "Model": "D9865-H",
+          "PartNumber": "4028651040001",
+          "OutShipmentGUID": "c5820785-7584-47df-bb9f-1ba7d003b2f7",
+          "WHRItemID": "0",
+          "IncludeInSED": "false",
+          "IsContainer": "false",
+          "OutMasterWayBillNumber": "FOX TEST API # 19",
+          "OutHouseWayBillNumber": "FOX TEST API # 19",
+          "LastReceptionNetworkID": "0",
+          "ShipmentType": "Ground",
+          "OutDate": "2019-06-25T16:50:32-04:00",
+          "OrderIndex": "1",
+          "IsPallet": "false",
+          "IsOverstock": "false",
+          "NotLoaded": "false",
+          "InTask": "false",
+          "CustomFields": {
+            "CustomField": [
+              {
+                "CustomFieldDefinition": {
+                  "Type": "PickList",
+                  "InternalName": "sub_location",
+                  "DisplayName": "SUB LOCATION",
+                  "InternalUse": "false",
+                  "BuildReports": "true",
+                  "Inactive": "false",
+                  "IsCalculated": "false",
+                  "DefaultValue": {
+                    "Value": "AR Good"
+                  },
+                  "PickItems": {
+                    "PickItem": [
+                      "AR Good",
+                      "AR Defective",
+                      "Scrap",
+                      "On Hold",
+                      "Engineering",
+                      "DOA Good",
+                      "DOA Defective"
+                    ]
+                  }
+                },
+                "Value": "AR Good"
+              },
+              {
+                "CustomFieldDefinition": {
+                  "Type": "Text",
+                  "InternalName": "estado",
+                  "DisplayName": "ESTADO",
+                  "InternalUse": "false",
+                  "BuildReports": "false",
+                  "Inactive": "false",
+                  "IsCalculated": "false",
+                  "MaximumLength": "100",
+                  "IsMultiline": "false"
+                },
+                "Value": "nuevo"
+              },
+              {
+                "CustomFieldDefinition": {
+                  "Type": "Text",
+                  "InternalName": "senal",
+                  "DisplayName": "SEÑAL",
+                  "InternalUse": "false",
+                  "BuildReports": "true",
+                  "Inactive": "false",
+                  "IsCalculated": "false",
+                  "MaximumLength": "100",
+                  "IsMultiline": "false"
+                },
+                "Value": "Fox Sports Premium Chile HD ,Nat Geo Chile HD,FX Movies Chile HD"
+              }
+            ]
+          }
+        }
+      ],
+      "events": [
+        {
+          "Date": "2019-06-25T16:50:32-04:00",
+          "EventDefinition": {
+            "Name": "Order processing",
+            "IncludeInTracking": "true"
+          },
+          "IncludeInTracking": "true",
+          "OwnerType": "SH",
+          "OwnerNumber": "FOX TEST API # 19",
+          "OwnerGUID": "c5820785-7584-47df-bb9f-1ba7d003b2f7"
+        },
+        {
+          "Date": "2019-06-26T08:54:03-04:00",
+          "EventDefinition": {
+            "Name": "In Transit",
+            "IncludeInTracking": "true"
+          },
+          "IncludeInTracking": "true",
+          "OwnerType": "SH",
+          "OwnerNumber": "FOX TEST API # 19",
+          "OwnerGUID": "c5820785-7584-47df-bb9f-1ba7d003b2f7"
+        },
+        {
+          "Date": "2019-06-26T12:53:15-04:00",
+          "EventDefinition": {
+            "Name": "Delivered to consignee",
+            "IncludeInTracking": "true"
+          },
+          "IncludeInTracking": "true",
+          "OwnerType": "SH",
+          "OwnerNumber": "FOX TEST API # 19",
+          "OwnerGUID": "c5820785-7584-47df-bb9f-1ba7d003b2f7"
+        }
+      ],
+      "totalPieces": "1",
+      "totalWeight": "5.00",
+      "totalVolume": "0.55000000000000004",
+      "status": "Delivered"
+    }
+  }

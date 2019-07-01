@@ -14,10 +14,10 @@ namespace ConsoleJSONParse
 
             // Console.WriteLine($"Stock models {stockModels.Count}");
 
-            string jsonData = ReadFile("./jsons/shipment.json");
+            string jsonData = ReadFile("./jsons/shipment.v5.json");
             var transactionInfo = JsonConvert.DeserializeObject<TransactionInfoResponse>(jsonData);
 
-            Console.WriteLine($"transactionInfo {transactionInfo} - {transactionInfo.Shipment.items.Count}");
+            Console.WriteLine($"transactionInfo {transactionInfo} - {transactionInfo.Shipment.items.Count} / {transactionInfo.Shipment.events.Count}");
 
         }
 
