@@ -9,15 +9,15 @@ namespace ConsoleJSONParse
     {
         static void Main(string[] args)
         {
-            // string jsonData = ReadFile("./jsons/models.json");
-            // var stockModels = JsonConvert.DeserializeObject<List<StockModel>>(jsonData);
+            string jsonData = ReadFile("./jsons/models.v1.json");
+            var stockModels = JsonConvert.DeserializeObject<List<StockModel>>(jsonData);
 
-            // Console.WriteLine($"Stock models {stockModels.Count}");
+            Console.WriteLine($"Stock models {stockModels.Count}");
 
-            string jsonData = ReadFile("./jsons/shipment.v5.json");
-            var transactionInfo = JsonConvert.DeserializeObject<TransactionInfoResponse>(jsonData);
+            // string jsonData = ReadFile("./jsons/shipment.v5.json");
+            // var transactionInfo = JsonConvert.DeserializeObject<TransactionInfoResponse>(jsonData);
 
-            Console.WriteLine($"transactionInfo {transactionInfo} - {transactionInfo.Shipment.items.Count} / {transactionInfo.Shipment.events.Count}");
+            // Console.WriteLine($"transactionInfo {transactionInfo} - {transactionInfo.Shipment.items.Count} / {transactionInfo.Shipment.events.Count}");
 
         }
 
